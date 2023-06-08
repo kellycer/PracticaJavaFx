@@ -1,0 +1,115 @@
+#mainPanel {
+    -fx-background-color: #B0B3C4;
+    -fx-spacing: 0px;
+}
+#bannerContainer {
+    -fx-background-color: #B0B3C4;
+    -fx-border-width: 0px;
+    -fx-alignment: center;
+}
+#bannerImage {
+    -fx-background-image: url(../images/nevado.jpg);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 400;
+    -fx-pref-height: 190;
+}
+#profileImage {
+    -fx-background-image: url(../images/Profile.png);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-max-width: 80;
+    -fx-min-height: 80;
+}
+#divider1 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 20;
+}
+#loginTextContainer {
+    -fx-text-fill: #000000;
+    -fx-font-family: Montserrat;
+    -fx-alignment: center;
+}
+#lblWelcome {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+#lblLogin {
+    -fx-text-fill: #000000;
+    -fx-font-family: Montserrat;
+}
+#divider2 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 30;
+}
+#usernameIcon {
+    -fx-pref-width: 35;
+    -fx-pref-height: 35;
+    -fx-background-image: url(../images/maleUser.png);
+    -fx-background-size: cover;
+}
+.field-class {
+    -fx-alignment: center-left;
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+}
+#usernameField {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+#passwordIcon {
+    -fx-pref-width: 35;
+    -fx-pref-height: 35;
+    -fx-background-image: url(../images/Secure.png);
+    -fx-background-size: cover;
+}
+#passwordField {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+#recuerdameButton {
+    -fx-alignment: center;
+    -fx-text-fill: #000000;
+    -fx-font-family: Montserrat;
+    -fx-spacing: 10px;
+}
+#txtRememberme {
+    -fx-padding: 0px 0px 0px 170px;
+}
+#divider3 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 10;
+}
+#divider4 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 10;
+}
+#rememberMeCheckBox{
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+#txtRememberme {
+    -fx-padding: 0px 0px 0px 150px;
+}
+#divider5 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 20;
+}
+#btnLogin {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 200px;
+    -fx-font-size: 12px;
+    -fx-font-family: Montserrat;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+#loginButtonContainer {
+    -fx-alignment: center;
+    -fx-padding: 0px 0px 0px 50px;
+}
